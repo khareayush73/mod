@@ -1,0 +1,6 @@
+mymod.newpage:
+  title: 'My Mod Stuff'
+  description: 'Link to the Page mymod created'
+  route_name: mymod.content
+  weight: 10
+  menu_name: main

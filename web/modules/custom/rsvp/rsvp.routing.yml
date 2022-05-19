@@ -1,0 +1,17 @@
+
+rsvp.admin_settings:
+  path: '/admin/config/content/rsvp'
+  defaults:
+    _form: '\Drupal\rsvp\Form\RSVPSettingsForm'
+    _title: 'RSVP List Settings'
+  requirements:
+    _permission: 'administer rsvp'  
+
+rsvp.report:
+  path: '/admin/reports/rsvp'
+  defaults:
+    _controller: '\Drupal\rsvp\Controller\ReportController::report' 
+    _title: 'List of RSVPs'
+  requirements:
+    _permission: 'view rsvp'
+
